@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Acepeta?</title>
+    <link rel="stylesheet" href="HJ.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random() * (400 - 1) + 1;
+                abajo = Math.random() * (609 - 1) + 1;
+                $(this).css('top', arriba);
+                $(this).css('left', abajo);
+            });
+        });
+        function dijoSI(){
+            document.getElementById('si').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>¿Acepetas a casarte conmigo?</h1>
+        </div>
+        <div class="opciones">
+            <p class="p1">No</p>
+            <p onclick="dijoSI()" class="p2">Sí</p>
+            <div id="si">YEIIIIIII ya acepeto ahora unos besotes por guapo ♥♥
+             <center><img src="53.jpg"width="250px"; height= "750px"></div></center> 
+        </div>
+    </div>
+</body>
+</html>

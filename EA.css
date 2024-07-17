@@ -1,0 +1,67 @@
+.texto-justificado{
+text-align: justify;
+}body {
+    font-family: Garamond, sans-serif;
+    margin: 25;
+    padding: 8;
+    background-color: #f4f4f4;
+}
+
+header {
+   background-image: url("F5.jpg");;
+    color: red;
+    padding: 100px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-image: url("F2.jpg");
+}
+
+nav ul li {
+    margin: 20;
+}
+
+nav ul li a {
+    display: block;
+    color: red;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+}
+h2 {
+    color: orange;
+    padding: 20px 0;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f35b04;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
